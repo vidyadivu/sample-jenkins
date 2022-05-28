@@ -13,6 +13,9 @@ pipeline {
             steps{
                 echo "this is my 1st stage in feature branch"
             }
+            steps{
+                echo "this is my 2nd stage in feature branch"
+            }
         }
     }
 }

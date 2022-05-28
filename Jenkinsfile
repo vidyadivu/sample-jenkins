@@ -9,6 +9,10 @@ pipeline {
             steps{
                 echo "this is my second stage"
             }
+            stage('build  stage'){
+            steps{
+                echo "this is my 1st stage in feature branch"
+            }
         }
     }
 }

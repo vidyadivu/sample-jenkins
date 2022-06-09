@@ -8,7 +8,7 @@ pipeline {
         }
         stage('second stage') {
             steps {
-                echo "this is my webhoot testing at stage"
+                echo "this is my webhook testing at stage"
                 
             }
         }
